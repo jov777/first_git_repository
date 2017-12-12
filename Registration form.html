@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Form</title>
+    </head>
+        <body>
+            <form action="action.php">
+                <h1>Registration Form</h1>
+                <label for="first_name">First Name:</label>
+                <input type="text" id="first_name" name="first_name">
+                    <br /> <br />
+                <label for="last_name">Last Name:</label>
+                <input type="text" id="last_name" name="last_name">
+                    <br /> <br />
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email">
+                    <br /> <br />
+                <label for="password">Password:</label>
+                <input type="text" id="password" name="password">   
+                    <br /> <br />
+                <label for="PW_confirm">PW Confirm</label>
+                <input type="text" id="PW_confirm" name="PW_confirm">
+                    <br /> <br />
+                    Birthday:
+                 <input type="date" name="bday">
+                    <br /> <br />
+                <p>Select your gender:</p>
+                <label for="male">Male</label>
+                <input type="checkbox" id="male" name="gender" value="male">
+                <label for="female">Female</label>
+                <input type="checkbox" id="female" name="gender" value="female">
+                <label for="other">Other</label>
+                <input type="checkbox" id="other" name="gender" value="other">
+                    <br /> <br />
+                <p>A short description about yourself:</p>
+                <textarea name="description"></textarea>
+                    <br /> <br />
+                    Favourite language:
+                    <select name="language">
+                            <option value="java_script">Java Script</option>
+                            <option value="python">Python</option>
+                            <option value="php">PHP</option>
+                            <option value="c#">C#</option>
+                    </select>
+                    <br /> <br />
+                    <input type="submit" value="Submit">
+            </form>
+        </body>
+    
+
+
+</html>
